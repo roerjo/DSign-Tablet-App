@@ -1,0 +1,178 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dsigners.dsign.TabMessagesFragment">
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Default Message:"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_marginRight="21dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textShortMessage|textAutoCorrect"
+                android:text="I'm in the Embedded Lab."
+                android:ems="10"
+                android:id="@+id/editMessageDefault" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Preset Message 1:"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_marginRight="15dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textShortMessage|textAutoCorrect"
+                android:text=""
+                android:ems="10"
+                android:id="@+id/editMessage1" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Preset Message 2:"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_marginRight="15dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textShortMessage|textAutoCorrect"
+                android:text=""
+                android:ems="10"
+                android:id="@+id/editMessage2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Preset Message 3:"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_marginRight="15dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textShortMessage|textAutoCorrect"
+                android:text=""
+                android:ems="10"
+                android:id="@+id/editMessage3" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Preset Message 4:"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_marginRight="15dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textShortMessage|textAutoCorrect"
+                android:text=""
+                android:ems="10"
+                android:id="@+id/editMessage4" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Preset Message 5:"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_marginRight="15dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textShortMessage|textAutoCorrect"
+                android:text=""
+                android:ems="10"
+                android:id="@+id/editMessage5" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Preset Message 6:"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_marginRight="15dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textShortMessage|textAutoCorrect"
+                android:text=""
+                android:ems="10"
+                android:id="@+id/editMessage6" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

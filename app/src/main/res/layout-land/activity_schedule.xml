@@ -1,0 +1,2130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/lightGray"
+        android:id="@+id/linearLayout">
+
+        <Button
+            android:id="@+id/Main"
+            android:layout_width="125dp"
+            android:layout_height="75dp"
+            android:text="Main"
+            />
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="75dp"
+            android:text="Schedule"
+            />
+    </LinearLayout>
+    <TableLayout
+        android:scrollbarThumbVertical="@color/lightGray"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*"
+        android:layout_above="@+id/linearLayout">
+        <TableRow
+            android:padding="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray">
+            <Button
+                android:id="@+id/ScheduleRoomNumber"
+                android:background="@android:color/holo_blue_bright"
+                android:text="Room 1234"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/sunday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_blue_bright"
+                android:text=" Sunday" />
+
+            <Button
+                android:id="@+id/monday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_blue_bright"
+                android:text=" Monday"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/tuesday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_blue_bright"
+                android:text=" Tuesday" />
+
+            <Button
+                android:id="@+id/wednesday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_blue_bright"
+                android:text=" Wednesday" />
+
+            <Button
+                android:id="@+id/thursday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_blue_bright"
+                android:text=" Thursday" />
+
+            <Button
+                android:id="@+id/friday"
+                android:background="@android:color/holo_blue_bright"
+                android:text=" Friday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+
+        </TableRow>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TableLayout
+                android:scrollbarThumbVertical="@color/lightGray"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:stretchColumns="*"
+                android:layout_above="@+id/linearLayout">
+
+                <TableRow
+                    android:padding="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content">
+
+                    <TextView
+
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="8:00 am"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"
+                        />
+
+
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="Go AWAY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="WHY "
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="EARLY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="HAPPY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="IM OUT"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+
+
+
+                </TableRow>
+                <TableRow
+                    android:padding="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content">
+
+                    <TextView
+
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="8:15 am"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"
+                        />
+
+
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="Go AWAY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="WHY "
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="EARLY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="HAPPY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="IM OUT"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+
+
+
+                </TableRow>
+                <TableRow
+                    android:padding="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content">
+
+                    <TextView
+
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="8:30 am"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"
+                        />
+
+
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="Go AWAY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="WHY "
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="EARLY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="HAPPY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="IM OUT"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+
+
+
+                </TableRow>
+                <TableRow
+                    android:padding="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content">
+
+                    <TextView
+
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="8:45 am"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"
+                        />
+
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="Go AWAY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="WHY "
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="EARLY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="HAPPY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="IM OUT"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+
+
+
+                </TableRow>
+                <TableRow
+
+
+                    android:padding="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content">
+
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="9:00 am"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"
+                        android:id="@+id/textView8" />
+
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="N/A"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"
+                        android:id="@+id/textView" />
+
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="WHY "
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="N/A"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="N/A"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="N/A"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+
+
+
+
+                </TableRow>
+                <TableRow
+                    android:padding="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content">
+
+                    <TextView
+
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="9:15 am"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"
+                        />
+
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="Go AWAY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="WHY "
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="EARLY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="HAPPY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="IM OUT"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+
+
+
+                </TableRow>
+                <TableRow
+                    android:padding="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content">
+
+                    <TextView
+
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="9:30 am"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"
+                        android:id="@+id/textView7" />
+
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="Go AWAY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="WHY "
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="EARLY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="HAPPY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="IM OUT"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+
+
+
+                </TableRow>
+                <TableRow
+                    android:padding="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content">
+
+                    <TextView
+
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="9:45 am"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"
+                        />
+
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="Go AWAY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="WHY "
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="EARLY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="HAPPY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="IM OUT"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+
+
+
+                </TableRow>
+                <TableRow
+                    android:padding="1dp"
+                    android:layout_height="match_parent"
+
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content">
+
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="10:00 am"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"
+                        android:id="@+id/textView9" />
+
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="WHY "
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="N/A"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"
+                        android:id="@+id/textView4" />
+
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="N/A"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="N/A"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="N/A"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+
+
+                </TableRow>
+                <TableRow
+                    android:padding="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content">
+
+                    <TextView
+
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="10:15 am"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"
+                        />
+
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="Go AWAY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="WHY "
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="EARLY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="HAPPY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="IM OUT"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+
+
+
+                </TableRow>
+                <TableRow
+                    android:padding="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content">
+
+                    <TextView
+
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="10:30 am"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"
+                        />
+
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="Go AWAY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="WHY "
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="EARLY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="HAPPY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="IM OUT"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+
+
+
+                </TableRow>
+                <TableRow
+                    android:padding="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content">
+
+                    <TextView
+
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="10:45 am"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"
+                        />
+
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="Go AWAY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="WHY "
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="EARLY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="HAPPY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="IM OUT"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+
+
+
+                </TableRow>
+                <TableRow
+                    android:padding="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content">
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="11:00 am"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="N/A"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="WHY "
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="N/A"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="N/A"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="N/A"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+
+
+                </TableRow> <TableRow
+                android:padding="1dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/darker_gray"
+                android:layout_width="wrap_content">
+
+                <TextView
+
+                    android:background="@android:color/holo_blue_bright"
+                    android:text="11:15 am"
+                    android:gravity="center"
+                    android:textSize="@dimen/activity_vertical_margin"
+                    android:layout_height="match_parent"
+                    android:layout_width="85dp"
+                    />
+
+                <TextView
+                    android:background="@android:color/holo_blue_bright"
+                    android:text="Go AWAY"
+                    android:gravity="center"
+                    android:textSize="@dimen/activity_vertical_margin"
+                    android:layout_height="match_parent"
+                    android:layout_width="85dp"/>
+                <TextView
+                    android:background="@android:color/holo_blue_bright"
+                    android:text="WHY "
+                    android:gravity="center"
+                    android:textSize="@dimen/activity_vertical_margin"
+                    android:layout_height="match_parent"
+                    android:layout_width="85dp"/>
+                <TextView
+                    android:background="@android:color/holo_blue_bright"
+                    android:text="EARLY"
+                    android:gravity="center"
+                    android:textSize="@dimen/activity_vertical_margin"
+                    android:layout_height="match_parent"
+                    android:layout_width="85dp"/>
+                <TextView
+                    android:background="@android:color/holo_blue_bright"
+                    android:text="HAPPY"
+                    android:gravity="center"
+                    android:textSize="@dimen/activity_vertical_margin"
+                    android:layout_height="match_parent"
+                    android:layout_width="85dp"/>
+                <TextView
+                    android:background="@android:color/holo_blue_bright"
+                    android:text="IM OUT"
+                    android:gravity="center"
+                    android:textSize="@dimen/activity_vertical_margin"
+                    android:layout_height="match_parent"
+                    android:layout_width="85dp"/>
+
+
+
+            </TableRow>
+                <TableRow
+                    android:padding="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content">
+
+                    <TextView
+
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="11:30 am"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"
+                        />
+
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="Go AWAY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="WHY "
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="EARLY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="HAPPY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="IM OUT"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+
+
+
+                </TableRow>
+                <TableRow
+                    android:padding="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content">
+
+                    <TextView
+
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="11:45 am"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"
+                        />
+
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="Go AWAY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="WHY "
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="EARLY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="HAPPY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="IM OUT"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+
+
+
+                </TableRow>
+
+                <TableRow
+                    android:padding="1dp"
+                    android:layout_height="match_parent"
+
+
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content">
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="12:00 pm"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="available "
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="N/A"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="WHY "
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="N/A"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="N/A"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+
+
+                </TableRow>
+                <TableRow
+                    android:padding="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content">
+
+                    <TextView
+
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="12:15 pm"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"
+                        />
+
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="Go AWAY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="WHY "
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="EARLY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="HAPPY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="IM OUT"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+
+
+
+                </TableRow>
+                <TableRow
+                    android:padding="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content">
+
+                    <TextView
+
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="12:30 pm"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"
+                        />
+
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="Go AWAY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="WHY "
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="EARLY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="HAPPY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="IM OUT"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+
+
+
+                </TableRow>
+                <TableRow
+                    android:padding="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content">
+
+                    <TextView
+
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="12:45 pm"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"
+                        />
+
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="Go AWAY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="WHY "
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="EARLY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="HAPPY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="IM OUT"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+
+
+
+                </TableRow>
+                <TableRow
+                    android:padding="1dp"
+                    android:layout_height="match_parent"
+
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content">
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="1:00 pm"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="N/A"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="available "
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"
+                        android:id="@+id/textView5" />
+
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="WHY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="N/A"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="N/A"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+
+
+                </TableRow>
+                <TableRow
+                    android:padding="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content">
+
+                    <TextView
+
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="1:15 pm"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"
+                        android:id="@+id/textView2" />
+
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="Go AWAY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="WHY "
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="EARLY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="HAPPY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="IM OUT"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+
+
+
+                </TableRow>
+                <TableRow
+                    android:padding="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content">
+
+                    <TextView
+
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="1:30 pm"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"
+                        />
+
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="Go AWAY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="WHY "
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="EARLY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="HAPPY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="IM OUT"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+
+
+
+                </TableRow>
+                <TableRow
+                    android:padding="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content">
+
+                    <TextView
+
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="1:45 pm"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"
+                        />
+
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="Go AWAY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="WHY "
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="EARLY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="HAPPY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="IM OUT"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+
+
+
+                </TableRow>
+                <TableRow
+                    android:padding="1dp"
+                    android:layout_height="match_parent"
+
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content">
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="2:00 pm"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="avaiable"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="N/A"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="WHY "
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="N/A"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="N/A"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+
+
+                </TableRow>
+                <TableRow
+                    android:padding="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content">
+
+                    <TextView
+
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="2:15 pm"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"
+                        />
+
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="Go AWAY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="WHY "
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="EARLY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="HAPPY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="IM OUT"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+
+
+
+                </TableRow>
+                <TableRow
+                    android:padding="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content">
+
+                    <TextView
+
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="2:30 pm"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"
+                        />
+
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="Go AWAY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="WHY "
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="EARLY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="HAPPY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="IM OUT"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+
+
+
+                </TableRow>
+                <TableRow
+                    android:padding="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content">
+
+                    <TextView
+
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="2:45 pm"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"
+                        />
+
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="Go AWAY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="WHY "
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="EARLY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="HAPPY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="IM OUT"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+
+
+
+                </TableRow>
+                <TableRow
+                    android:padding="1dp"
+                    android:layout_height="match_parent"
+
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content">
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="3:00 pm"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="N/A"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="N/A"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="N/A"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="availablel"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="WHY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+
+
+                </TableRow>
+                <TableRow
+                    android:padding="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content">
+
+                    <TextView
+
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="3:15 pm"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"
+                        />
+
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="Go AWAY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="WHY "
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="EARLY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="HAPPY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="IM OUT"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+
+
+
+                </TableRow>
+                <TableRow
+                    android:padding="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content">
+
+                    <TextView
+
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="3:30 pm"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"
+                        />
+
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="Go AWAY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="WHY "
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="EARLY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="HAPPY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="IM OUT"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+
+
+
+                </TableRow>
+                <TableRow
+                    android:padding="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content">
+
+                    <TextView
+
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="3:45 pm"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"
+                        />
+
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="Go AWAY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="WHY "
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="EARLY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="HAPPY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="IM OUT"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+
+
+
+                </TableRow>
+                <TableRow
+                    android:padding="1dp"
+                    android:layout_height="match_parent"
+
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content">
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="4:00 pm"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="N/A"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="N/A"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="N/A"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="N/A"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="N/A"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+
+
+                </TableRow>
+                <TableRow
+                    android:padding="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content">
+
+                    <TextView
+
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="4:15 pm"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"
+                        />
+
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="Go AWAY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="WHY "
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="EARLY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="HAPPY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="IM OUT"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+
+
+
+                </TableRow>
+                <TableRow
+                    android:padding="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content">
+
+                    <TextView
+
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="4:30 pm"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"
+                        />
+
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="Go AWAY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="WHY "
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="EARLY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="HAPPY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="IM OUT"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+
+
+
+                </TableRow>
+                <TableRow
+                    android:padding="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content">
+
+                    <TextView
+
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="4:45 pm"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"
+                        />
+
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="Go AWAY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="WHY "
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="EARLY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="HAPPY"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="IM OUT"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+
+
+
+                </TableRow>
+                <TableRow
+                    android:padding="1dp"
+                    android:layout_height="match_parent"
+
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content">
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="5:00 pm"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="N/A"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="N/A"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="N/A"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="N/A"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"/>
+
+                    <TextView
+                        android:background="@android:color/holo_blue_bright"
+                        android:text="N/A"
+                        android:gravity="center"
+                        android:textSize="@dimen/activity_vertical_margin"
+                        android:layout_height="match_parent"
+                        android:layout_width="85dp"
+                        android:id="@+id/textView3" />
+
+
+                </TableRow>
+            </TableLayout>
+        </ScrollView>
+
+
+    </TableLayout>
+
+
+</RelativeLayout>
