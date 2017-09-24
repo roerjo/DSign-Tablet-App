@@ -1,25 +1,6 @@
 # D-Sign-Tablet-App
 Senior Project Tablet App
 
-Responsiblities:
-
-Eric Johnson:
-- Main Activity and Settings Activity Layouts: Completed
-- Ability to upload and download from Dropbox: Completed
-- User defined sync schedule with Dropbox: Completed
-- Settings Activity PIN protected: Completed
-- Name, Room #, and Preset Messages update on Main Activity: Completed
-- Enable/Disable Wifi for syncing: Incomplete
-- Ability to display image instead of text for main message: Incomplete
-
-Justin Rhea:
-- Design schedule page layout
-- Set up WebView of Google Calendar on Schedule page (Active on the Tablet)
-- Display warning attempts when Pin code entered is wrong
-- Design day of week page to show each day of the week with Monday-Friday (default) and Sunday-Friday (Weekend toggle is on). In this page, user will be able to swipe to the specific day or select the tab the day want to view (*)
-- Day of week page show each day in detail (*)
-*(Not active on the Tablet, but still saved in the project)
-
 Our senior project consisted of developing an app that would act as a nameplate for an office. Students and employees are often frustrated when they go to an office of a professor or co-worker and find that they are not there. This app allows professors or office workers to have an updatable nameplate that can display messages as to their whereabouts or other such pertinent information. It also has a page with a dedicated schedule that is linked to Google calendars.
 
 The project consists of two apps linked via Dropbox. 
